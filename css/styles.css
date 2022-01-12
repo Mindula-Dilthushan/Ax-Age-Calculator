@@ -1,3 +1,5 @@
+/*Mindula Dilthushan*/
+/*Ax Age Calculator*/
 body {
     overflow: hidden;
     margin: 0;
@@ -6,7 +8,120 @@ body {
 .main-section {
     width: 100vw;
     height: 100vh;
+    display: flex;
     background-image: linear-gradient(to right top, #f9ca24, #f9bf23, #f8b524, #f6aa26, #f4a028, #fa8e2f, #fe7b39, #ff6845, #ff4262, #ff0e87, #ee00b1, #be2edd);
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-section {
+    width: 40%;
+    height: 70%;
+    display: flex;
+    background-color: #f6e58d;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.txt-date {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 30px;
+    color: #484848;
+    margin-top: 1%;
+}
+
+.txt {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+    color: #484848;
+    margin-bottom: 1%;
+}
+
+.txt span {
+    font-weight: bold;
+    color: #eb4d4b;
+}
+
+.input-field {
+    width: 65%;
+    height: 7%;
+    border-color: transparent;
+    border-radius: 8px;
+    background-color: #ffbe76;
+}
+
+::placeholder {
+    font-size: 15px;
+    color: #484848;
+    border-color: transparent;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+input:focus {
+    outline: none;
+    font-size: 15px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.btn {
+    width: 67%;
+    height: 7%;
+    background-color: #eb4d4b;
+    border-color: transparent;
+    margin-top: 3%;
+    color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.btn:hover {
+    background-color: #f0932b;
+}
+
+.count-age {
+    width: 40%;
+    height: 70%;
+    background-color: #FFD7F7;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-age-view {
+    width: 100%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.txt-birthday {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 35px;
+    font-weight: bold;
+    color: #00ADEF;
+}
+
+.img {
+    width: 300px;
+    height: 200px;
+}
+
+.footer-section {
+    width: 40%;
+    height: 5%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.footer-text {
+    font-family: 'Balsamiq Sans', cursive;
+    margin-top: 30%;
 }

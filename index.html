@@ -3,18 +3,49 @@
 <!doctype html>
 <html class="no-js" lang="">
 <head>
-  <meta charset="utf-8">
-  <title>Ax Age Calculator</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Ax Age Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!--Import Styles---------------------------------------------------------------------------------------------------->
-  <link rel="stylesheet" href="css/styles.css">
+    <!--Import Google Fonts ------------------------------------------------------------------------------------------->
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+
+    <!--Import Styles-------------------------------------------------------------------------------------------------->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
 <section class="main-section">
 
+    <!--Input Birthday Content Section -------------------------------------------------------------------------------->
+    <div class="content-section" id="content_div">
+        <p class="txt-date" id="current_date"></p>
+        <p class="txt">
+            Enter your birthday in format - <span>MM/DD/YYYY</span>
+        </p>
+        <input
+                class="input-field"
+                type="text"
+                placeholder="MM/DD/YYYY"
+                id="birthday"
+        >
+        <button class="btn" id="calculate_age">Confirm</button>
+    </div>
+
+    <!--Birthday Count Section ---------------------------------------------------------------------------------------->
+    <div class="count-age" id="calculate_age_div" style="display: none">
+        <div class="content-age-view">
+            <p class="txt-birthday" id="cal_age"></p>
+            <img src="assets/images/age.gif" class="img">
+        </div>
+
+    </div>
+
+    <!--Footer Section ------------------------------------------------------------------------------------------------>
+    <div class="footer-section">
+        <p class="footer-text">Made with Mindula Dilthushan &nbsp&nbsp ^_~ </p>
+    </div>
 
 </section>
 
