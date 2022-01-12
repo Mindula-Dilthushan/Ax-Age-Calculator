@@ -1,0 +1,12 @@
+body {
+    overflow: hidden;
+    margin: 0;
+}
+
+.main-section {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #f9ca24, #f9bf23, #f8b524, #f6aa26, #f4a028, #fa8e2f, #fe7b39, #ff6845, #ff4262, #ff0e87, #ee00b1, #be2edd);
+    justify-content: center;
+    align-content: center;
+}
